@@ -6,7 +6,7 @@ related information for the Higher Studies with Scholarships.
 
 We share career opportunities and guide students to reach their
 goals. We organize career guidance programmes for students in
-schools, colleges, universities and in some remote villages too.
+schools, colleges, universities and in some remote villages too. 
 
 Lack of awareness about career options, many students from
 underprivileged communities missing good opportunities.CM Academy
