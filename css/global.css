@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* These styles are same for all the pages */
+/* CSS/styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Heading styles on different screen sizes */
+  header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.1em;
+  }
+  
+  @media (min-width: 768px) {
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Navigation styles */
+  nav {
+    margin: 0 auto;
+    width: 92%;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Button styles on different screen sizes */
+  nav a {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: #000;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media (min-width: 768px) {
+    nav a {
+      font-size: 14px;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    nav a {
+      font-size: 16px;
+      padding: 0.75rem 1.25rem;
+    }
+  }
+  
+  nav a:hover {
+    background-color: #ccc;
+  }
+
+  /* Active button styles */
+nav a.active {
+    background-color: #ccc;
+  }
+
+
+
+
+/* Basic styles for the table */
+table {
+  margin: 0 auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid #ccc; /* Border color for the table */
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* Header styles */
+thead {
+  background-color: skyblue; /* Header background color */
+}
+
+thead th {
+  border: 2px solid #888; /* Header border color */
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  border-bottom: 1px solid gray;
+  background-color: #f0f0f0; /* Dark gray for odd rows */
+}
+
+/* Link styles */
+table td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+
+  

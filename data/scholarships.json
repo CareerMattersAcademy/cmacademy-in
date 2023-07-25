@@ -1,0 +1,19 @@
+[
+    {
+      "id": "1",
+      "organisation": "Sholarship A",
+      "title": "Job Title 1",
+      "lastDate": "2023-08-15",
+      "applyLink": "https://example.com/apply1",
+      "notificationLink": "https://example.com/notification1"
+    },
+    {
+      "id": "2",
+      "organisation": "Sholarship B",
+      "title": "Job Title 2",
+      "lastDate": "2023-08-30",
+      "applyLink": "https://example.com/apply2",
+      "notificationLink": "https://example.com/notification2"
+    }
+  ]
+  
